@@ -41,7 +41,7 @@ export default function FrontPage() {
             <div className="flex gap-2">
               <a
                 className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-                href="/projetos"
+                href="#projects"
                 rel="noopener noreferrer"
                 >
                 <Image
@@ -55,7 +55,7 @@ export default function FrontPage() {
               </a>
               <a
                 className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-                href="/quem-sou"
+                href="#about"
                 rel="noopener noreferrer"
               >
                 <Image
