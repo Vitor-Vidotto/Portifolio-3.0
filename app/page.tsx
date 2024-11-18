@@ -5,7 +5,9 @@ import ProjectsSection from "./components/ProjectsSection";
 import ThreeDScene from "./components/ThreeDScene";
 import ServicesSection from "./components/ServicesSection";
 import ServicesPriceSection from "./components/ServicesPriceSection";
-import Timeline from "./components/TimeLine";
+const Timeline = dynamic(() => import('./components/TimeLine'), {
+  ssr: false,
+});
 
 
 export default function Home() {
