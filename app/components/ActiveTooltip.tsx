@@ -3,13 +3,13 @@ import { useState, useEffect, ReactNode } from "react";
 
 interface ActiveTooltipProps {
   children: ReactNode;  // Adicionando o tipo para children
-  tooltipText?: string;
+  tooltipText?: ReactNode;  // Alterado de 'string' para 'ReactNode'
   displayTime?: number;
 }
 
 const ActiveTooltip = ({
   children,
-  tooltipText = "Precisa de ajuda?",
+  tooltipText = "Precisa de ajuda?", // Agora pode ser tanto texto quanto JSX
   displayTime = 60000, // 1 minuto (60000ms)
 }: ActiveTooltipProps) => {
   const [showTooltip, setShowTooltip] = useState(false);
@@ -37,7 +37,7 @@ const ActiveTooltip = ({
           className="absolute -top-10 bg-gray-800 text-white text-xs rounded py-1 px-2 shadow-lg cursor-pointer"
           onClick={handleTooltipClick} // Adiciona o clique para fechar o tooltip
         >
-          <span className="whitespace-nowrap">{tooltipText}</span>
+          <span className="whitespace-nowrap">{tooltipText}</span> {/* Aqui pode ser tanto string quanto JSX */}
         </div>
       )}
       {children}
