@@ -1,12 +1,16 @@
-"use client"; // Certifique-se de que isso esteja no topo
+import { useState, useEffect, ReactNode } from "react";
 
-import { useState, useEffect } from "react";
+interface ActiveTooltipProps {
+  children: ReactNode;  // Adicionando o tipo para children
+  tooltipText?: string;
+  displayTime?: number;
+}
 
 const ActiveTooltip = ({
   children,
   tooltipText = "Precisa de ajuda?",
   displayTime = 60000, // 1 minuto (60000ms)
-}) => {
+}: ActiveTooltipProps) => {
   const [showTooltip, setShowTooltip] = useState(false);
 
   // Função para exibir o tooltip após o tempo de 1 minuto
