@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import AboutSection from "./components/AboutSection";
 import ContatoSection from "./components/ContatoSection";
 import FrontPage from "./components/FrontPage";
