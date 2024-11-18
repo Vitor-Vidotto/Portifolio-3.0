@@ -6,7 +6,9 @@ import ProjectsSection from "./components/ProjectsSection";
 import ThreeDScene from "./components/ThreeDScene";
 import ServicesSection from "./components/ServicesSection";
 import ServicesPriceSection from "./components/ServicesPriceSection";
-import ActiveTooltip from "./components/ActiveTooltip";
+const ActiveTooltip = dynamic(() => import("./components/ActiveTooltip"), {
+  ssr: false,
+});
 const Timeline = dynamic(() => import('./components/TimeLine'), {
   ssr: false,
 });
