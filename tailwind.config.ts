@@ -17,8 +17,8 @@ const config: Config = {
       },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
+          '0%': { opacity: '0' }, // '0' como string
+          '100%': { opacity: '1' }, // '1' como string
         },
       },
     },
