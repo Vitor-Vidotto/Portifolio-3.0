@@ -52,9 +52,9 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Desenvolvimento de Software",
-    description: "Desenvolvi softwares para processos de empresas",
-    image: "/images/projects/7.jpg",
+    title: "Software ListaMestra",
+    description: "Desenvolvi um software de controle de arquivos da empresa",
+    image: "/images/projects/7.png",
     tag: ["Todos", "Desktop"],
     gitUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
     previewUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
