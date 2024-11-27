@@ -13,17 +13,7 @@ const TAB_DATA = [
         <li>Sites Pré-Moldados</li>
         <li>Testes Automatizados</li>
         <li>Atualização de Sites</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Educação",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-4 text-lg">
-        <li>Adaptação de Sites para Celulares</li>
-        <li>Aplicações para Celular</li>
-        <li>Instalação de Softwares</li>
+        <li>Desenvolvimento de Software</li>
       </ul>
     ),
   },
