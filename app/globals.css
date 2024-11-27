@@ -25,3 +25,22 @@ body {
     text-wrap: balance;
   }
 }
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 0;
+  }
+  50% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ffffff, #000000, #ffffff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 8s ease infinite;
+}
