@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "https://github.com/Vitor-Vidotto/python-automations",
     previewUrl: "https://github.com/Vitor-Vidotto/python-automations",
   },
+  {
+    id: 6,
+    title: "Desenvolvimento de Software",
+    description: "Desenvolvi softwares para processos de empresas",
+    image: "/images/projects/7.jpg",
+    tag: ["Todos", "Desktop"],
+    gitUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
+    previewUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
+  },
 ];
 
 const ProjectsSection = () => {
