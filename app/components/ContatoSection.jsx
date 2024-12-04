@@ -6,13 +6,38 @@ const ContatoSection = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        setTimeout(() => {
-            setIsVisible(true);
-        }, 250); // Atraso de 250ms para a animação
+        // Criando o IntersectionObserver
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                // Quando o elemento entra na viewport, a animação é ativada
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                } else {
+                    setIsVisible(false);
+                }
+            },
+            {
+                threshold: 0.2, // Define o quanto do elemento precisa estar visível
+            }
+        );
+
+        // Selecionando a seção de contato
+        const section = document.getElementById("contato");
+        if (section) {
+            observer.observe(section);
+        }
+
+        // Limpeza do observer quando o componente for desmontado
+        return () => {
+            if (section) {
+                observer.unobserve(section);
+            }
+        };
     }, []);
 
     return (
-        <section id="contato"
+        <section
+            id="contato"
             className={`flex flex-col justify-center items-center min-h-screen transition-opacity duration-1000 ${isVisible ? "opacity-100" : "opacity-0"
                 }`}
             style={{ paddingBottom: "20vh" }}
