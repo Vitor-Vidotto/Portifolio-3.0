@@ -47,7 +47,7 @@ const ContatoSection = () => {
             </h1>
             <div className="flex flex-col sm:flex-row gap-10 text-center items-center">
                 <a
-                    href="https://www.linkedin.com/in/vitor-vidotto-334912253/"
+                    href="https://www.linkedin.com/in/vitor-vidotto/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`flex flex-col items-center transition-transform duration-1000 transform ${isVisible ? "translate-x-0" : "translate-x-20"} opacity-${isVisible ? "100" : "0"} hover:scale-110`}
