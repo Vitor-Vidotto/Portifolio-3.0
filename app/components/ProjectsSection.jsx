@@ -6,6 +6,24 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
+    id: 6,
+    title: "Software ListaMestra",
+    description: "Desenvolvi um software de controle de arquivos da empresa, onde tem automações e funções de controle.",
+    image: "/images/projects/7.png",
+    tag: ["Todos", "Desktop"],
+    gitUrl: "https://github.com/Vitor-Vidotto/",
+    previewUrl: "https://github.com/Vitor-Vidotto/",
+  },
+  {
+    id: 4,
+    title: "Protótipo de site empresarial",
+    description: "Uma aplicação desenvolvida para um restaurante, para que os clientes tenham a opção de pedir online",
+    image: "/images/projects/4.png",
+    tag: ["Todos", "Web"],
+    gitUrl: "https://github.com/AutomatizaLabs/AutomatizaLabs",
+    previewUrl: "https://automatiza-labs-three.vercel.app/",
+  },
+  {
     id: 1,
     title: "Aplicativo de listagem de filmes",
     description: "Uma aplicação onde o usuário pode ver os filmes disponíveis e ler a descrição.",
@@ -15,7 +33,25 @@ const projectsData = [
     previewUrl: "https://github.com/Vitor-Vidotto/FavMovies",
   },
   {
-    id: 2,
+    id: 7,
+    title: "Software EasyCD",
+    description: "Desenvolvi um software de controle de tempos de recargas para times de jogos, onde você se conecta a uma seção e ele recebe seus tempos de recarga e exibe em uma janela com sobreposição.",
+    image: "/images/projects/9.png",
+    tag: ["Todos", "Desktop"],
+    gitUrl: "https://github.com/Vitor-Vidotto/",
+    previewUrl: "https://github.com/Vitor-Vidotto/",
+    },
+    {
+      id: 8,
+      title: "Site de Guilda",
+      description: "Desenvolvi um site para uma guilda de um jogo, onde os usuários poderiam ver informações da mesma e equipamentos que eles usam em suas composições de combate.",
+      image: "/images/projects/8.png",
+      tag: ["Todos", "Desktop"],
+      gitUrl: "https://github.com/Vitor-Vidotto/Helldivers",
+      previewUrl: "https://helldivers.vercel.app/",
+    },
+    {
+      id: 2,
     title: "App de Controle C#",
     description: " Desenvolvi um projeto em c# onde o mesmo serve para monitorar e enviar arquivos via FTP, fazendo que os mesmos sirvam de backup para a maquina e que sirva também para controle e geração de logs.",
     image: "/images/projects/2.png",
@@ -33,15 +69,6 @@ const projectsData = [
     previewUrl: "https://vitor-vidotto.github.io/Portifolio/",
   },
   {
-    id: 4,
-    title: "Protótipo de site empresarial",
-    description: "Uma aplicação desenvolvida para um restaurante, para que os clientes tenham a opção de pedir online",
-    image: "/images/projects/4.png",
-    tag: ["Todos", "Web"],
-    gitUrl: "https://github.com/AutomatizaLabs/AutomatizaLabs",
-    previewUrl: "https://github.com/AutomatizaLabs/AutomatizaLabs",
-  },
-  {
     id: 5,
     title: "Automações em Python",
     description: "Desenvolvi automações para processos de empresas em python",
@@ -50,22 +77,14 @@ const projectsData = [
     gitUrl: "https://github.com/Vitor-Vidotto/python-automations",
     previewUrl: "https://github.com/Vitor-Vidotto/python-automations",
   },
-  {
-    id: 6,
-    title: "Software ListaMestra",
-    description: "Desenvolvi um software de controle de arquivos da empresa",
-    image: "/images/projects/7.png",
-    tag: ["Todos", "Desktop"],
-    gitUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
-    previewUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
-  },
+  
 ];
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("Todos");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
+  
   const handleTagChange = (newTag) => {
     setTag(newTag);
   };
