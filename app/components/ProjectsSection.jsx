@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 6,
     title: "Software ListaMestra",
-    description: "Desenvolvi um software de controle de arquivos da empresa, onde tem automações e funções de controle.",
+    description: "Desenvolvi um software de controle de arquivos da empresa, onde tem automações e funções de controle, está em produção rodando como a principal ferramenta de duuas empresas.",
     image: "/images/projects/7.png",
     tag: ["Todos", "Desktop"],
     gitUrl: "https://github.com/Vitor-Vidotto/",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 4,
     title: "Protótipo de site empresarial",
-    description: "Uma aplicação desenvolvida para um restaurante, para que os clientes tenham a opção de pedir online",
+    description: "Uma aplicação desenvolvida para uma empresa ficticia, para que os clientes possam visitar o site e ir para o painel de administração",
     image: "/images/projects/4.png",
     tag: ["Todos", "Web"],
     gitUrl: "https://github.com/AutomatizaLabs/AutomatizaLabs",
@@ -71,7 +71,7 @@ const projectsData = [
   {
     id: 5,
     title: "Automações em Python",
-    description: "Desenvolvi automações para processos de empresas em python",
+    description: "Desenvolvi automações para processos de empresas em python, como limpeza de pastas, automação de lisps, e processos repetitivos",
     image: "/images/projects/6.png",
     tag: ["Todos", "Desktop"],
     gitUrl: "https://github.com/Vitor-Vidotto/python-automations",
