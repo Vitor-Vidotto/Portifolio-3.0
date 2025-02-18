@@ -16,6 +16,8 @@ const TAB_DATA = [
         <li>Desenvolvimento de Software (Tauri, Electron, .NET)</li>
         <li>Desenvolvimento de Ambientes virtuais e Jogos (Unity e Unreal Engine)</li>
         <li>Infraestrutura Básica e Suporte (Instalações, Configurações, Redes e Servidores)</li>
+        <li>Sistemas Linux</li>
+        <li>Docker</li>
       </ul>
     ),
   },
