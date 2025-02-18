@@ -8,14 +8,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 text-white skills-list">
-        <li>Desenvolvimento Frontend (React, Next.js, HTML, CSS, JavaScript)</li>
-        <li>Desenvolvimento Backend (Node.js, Express, API REST)</li>
-        <li>Desenvolvimento Mobile (React Native)</li>
-        <li>Banco de Dados (MySQL, MongoDB)</li>
-        <li>Automação de Processos</li>
-        <li>Infraestrutura Básica e Suporte (Instalações, Configurações)</li>
-        <li>Desenvolvimento de Softwares Personalizados</li>
-        <li>Unity (Desenvolvimento de Aplicações e Jogos)</li>
+        <li>Desenvolvimento Frontend (React, Next.js, Vue, Nuxt.js, Flutter, HTML, CSS, JavaScript)</li>
+        <li>Desenvolvimento Backend (Node.js, Express, Django, Rust, API REST)</li>
+        <li>Desenvolvimento Mobile (React Native, Flutter)</li>
+        <li>Banco de Dados (MySQL, MongoDB, Firebase)</li>
+        <li>Automação de Processos (Python)</li>
+        <li>Desenvolvimento de Software (Tauri, Electron, .NET)</li>
+        <li>Desenvolvimento de Ambientes virtuais e Jogos (Unity e Unreal Engine)</li>
+        <li>Infraestrutura Básica e Suporte (Instalações, Configurações, Redes e Servidores)</li>
       </ul>
     ),
   },
