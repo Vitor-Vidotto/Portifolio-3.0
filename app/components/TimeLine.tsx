@@ -60,7 +60,7 @@ const TIMELINE_DATA = [
     cardTitle: "Aliança Engenharia Integrada",
     cardSubtitle: "Estágio em Inovação TI",
     cardDetailedText:
-      "Atuo na automação de processos e desenvolvimento de soluções pontuais para plataformas internas, além de suporte de infraestrutura. Estou continuamente aprimorando minhas habilidades em backend e automação.",
+      "Atuo na automação de processos e desenvolvimento de soluções pontuais para plataformas internas, além de suporte de infraestrutura e softweres personalizados respondendo diratamente o cliente.",
     media: {
       type: "IMAGE",
       source: {

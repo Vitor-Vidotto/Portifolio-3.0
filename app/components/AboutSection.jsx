@@ -66,12 +66,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Quem Sou</h2>
           <p className="text-base lg:text-lg text-white">
-            Sou um desenvolvedor de software com experiência em frontend, backend, mobile e automação de processos. Ao longo da minha jornada profissional, passei por empresas que me ajudaram a desenvolver minhas habilidades e enfrentar novos desafios.
+            Sou um desenvolvedor de software com experiência de Fullstack, Desevolvimento Mobile & Softwere desktop. Ao longo da minha jornada profissional, passei por empresas que me ajudaram a desenvolver minhas habilidades e enfrentar novos desafios.
           </p>
           <br />
           <p className="text-base lg:text-lg text-white">
-            Vamos trabalhar juntos para transformar suas ideias em soluções inovadoras, seja para o desenvolvimento de sites, aplicativos, softwares personalizados ou automação de processos.
-          </p>
+          Transformo ideias em soluções inovadoras, desenvolvendo sites, aplicativos, softwares personalizados e automações de processos. Confira meu portfólio e descubra como posso agregar valor ao seu projeto!
+           </p>
           <div className="mt-8">
             {/* Aqui os itens da lista só ficam visíveis se isItemVisible for verdadeiro */}
             <ul className="list-disc pl-2 text-white">
