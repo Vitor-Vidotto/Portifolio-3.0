@@ -55,6 +55,19 @@ const TIMELINE_DATA = [
       },
     },
   },
+   {
+    title: "2024 - Atualmente",
+    cardTitle: "IP FACENS",
+    cardSubtitle: "Bolsista Conecta2030",
+    cardDetailedText:
+      "Atuo no projeto Conecta 2030 com foco em infraestrutura e conectividade, contribuindo para o desenvolvimento de soluções em realidade aumentada e suporte a servidores, com aplicação prática em sistemas embarcados e segurança viária.",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "/images/logos/ipfacens.png",
+      },
+    },
+  },
   {
     title: "2024 - Atualmente",
     cardTitle: "Aliança Engenharia Integrada",
