@@ -11,8 +11,8 @@ const projectsData = [
     description: "Desenvolvi um software de controle de arquivos da empresa, onde tem automações e funções de controle, está em produção rodando como a principal ferramenta de duuas empresas.",
     image: "/images/projects/7.png",
     tag: ["Todos", "Desktop"],
-    gitUrl: "https://github.com/Vitor-Vidotto/",
-    previewUrl: "https://github.com/Vitor-Vidotto/",
+    gitUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
+    previewUrl: "https://github.com/Vitor-Vidotto/ListaMestra",
   },
   {
     id: 4,
@@ -38,8 +38,8 @@ const projectsData = [
     description: "Desenvolvi um software de controle de tempos de recargas para times de jogos, onde você se conecta a uma seção e ele recebe seus tempos de recarga e exibe em uma janela com sobreposição.",
     image: "/images/projects/9.png",
     tag: ["Todos", "Desktop"],
-    gitUrl: "https://github.com/Vitor-Vidotto/",
-    previewUrl: "https://github.com/Vitor-Vidotto/",
+    gitUrl: "https://github.com/Vitor-Vidotto/easy-cd",
+    previewUrl: "https://github.com/Vitor-Vidotto/easy-cd",
     },
     {
       id: 8,
