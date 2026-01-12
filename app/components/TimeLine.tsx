@@ -55,6 +55,19 @@ const TIMELINE_DATA = [
       },
     },
   },
+    {
+    title: "2024 - 2025",
+    cardTitle: "Aliança Engenharia Integrada",
+    cardSubtitle: "Estágio em Inovação TI",
+    cardDetailedText:
+      "Atuo na automação de processos e desenvolvimento de soluções pontuais para plataformas internas, além de suporte de infraestrutura e softweres personalizados respondendo diratamente o cliente.",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "/images/logos/aliancaengenharia.png",
+      },
+    },
+  },
    {
     title: "2024 - Atualmente",
     cardTitle: "IP FACENS",
@@ -65,19 +78,6 @@ const TIMELINE_DATA = [
       type: "IMAGE",
       source: {
         url: "/images/logos/ipfacens.png",
-      },
-    },
-  },
-  {
-    title: "2024 - Atualmente",
-    cardTitle: "Aliança Engenharia Integrada",
-    cardSubtitle: "Estágio em Inovação TI",
-    cardDetailedText:
-      "Atuo na automação de processos e desenvolvimento de soluções pontuais para plataformas internas, além de suporte de infraestrutura e softweres personalizados respondendo diratamente o cliente.",
-    media: {
-      type: "IMAGE",
-      source: {
-        url: "/images/logos/aliancaengenharia.png",
       },
     },
   },
