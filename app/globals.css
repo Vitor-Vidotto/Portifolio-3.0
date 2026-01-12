@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tema CLARO como padrão */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #171717;
+  --foreground: #ededed;
 }
 
-/* Tema DARK apenas se o usuário preferir */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #171717;
@@ -40,9 +38,8 @@ body {
   }
 }
 
-/* Gradiente ajustado para funcionar bem no tema claro */
 .text-gradient {
-  background: linear-gradient(90deg, #000000, #666666, #000000);
+  background: linear-gradient(90deg, #ffffff, #000000, #ffffff);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   color: transparent;
